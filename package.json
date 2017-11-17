@@ -1,0 +1,37 @@
+{
+  "name": "magazine-promo-tool",
+  "version": "1.0.1",
+  "description": "Retweets Magazine Deals and Savings",
+  "main": "app.js",
+  "dependencies": {
+    "express": "*",
+    "phrasejumble": "git+https://git@github.com/bradmkjr/phrasejumble.git",
+    "querystring": "*",
+    "sqlcachedb": "*",
+    "sqlite3": "*",
+    "twit": "*"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bradmkjr/giveaway-promo-tool.git"
+  },
+  "keywords": [
+    "giveaways",
+    "promotion",
+    "magazine",
+    "twitter",
+    "affiliate",
+    "discounts"
+  ],
+  "author": "Bradford Knowlton",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bradmkjr/magazine-promo-tool/issues"
+  },
+  "homepage": "https://github.com/bradmkjr/magazine-promo-tool#readme"
+}
