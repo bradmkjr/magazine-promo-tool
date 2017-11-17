@@ -4,7 +4,11 @@
   "description": "Retweets Magazine Deals and Savings",
   "main": "app.js",
   "dependencies": {
+    "amazon-product-api": "^0.4.4",
+    "bitly": "*",
+    "cheerio": "*",
     "express": "*",
+    "jimp": "*",
     "phrasejumble": "git+https://git@github.com/bradmkjr/phrasejumble.git",
     "querystring": "*",
     "sqlcachedb": "*",
